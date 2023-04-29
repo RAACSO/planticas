@@ -1,11 +1,19 @@
 package com.example.planticas.controller;
 
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 
+
+import com.example.planticas.entities.Cliente;
+
+import org.springframework.ui.Model;
+
 @Controller
 public class controlador {
+
+
     @GetMapping("/logear")
     public String logearse(){
         return "logearse";
@@ -30,6 +38,14 @@ public class controlador {
     public String reporte(){
         return "reporte";
     }
+
+    @GetMapping("/CrearCliente")
+    public String CrearCliente(Model modelo){
+        modelo.addAttribute("cliente",new Cliente());
+        return "CrearCliente";
+    }
+
+    
 
     @GetMapping("/menu")
     public String menu(){
