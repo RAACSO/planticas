@@ -121,10 +121,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     }
 body {
-    background-image: url(img-plantas/plantas-ques-se-comunican_79651ee3_1200x1200.jpg) ;
-    background-repeat: no-repeat;
-    background-attachment: 30%;
-    background-size: 100%;
+    background-color: cadetblue;
     
 }
 .form-control{
@@ -153,3 +150,13 @@ body {
 .mt{
     margin-top: 220px;
 }
+
+.cascading-center {
+    margin-right: -50px;
+  }
+
+  @media (max-width: 1000px) {
+    .cascading-center {
+      margin-right: 0;
+    }
+  }
