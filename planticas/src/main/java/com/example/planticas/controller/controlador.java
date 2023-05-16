@@ -4,9 +4,7 @@ package com.example.planticas.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-
-
-import com.example.planticas.entities.Cliente;
+import com.example.planticas.models.entities.Cliente;
 
 import org.springframework.ui.Model;
 
