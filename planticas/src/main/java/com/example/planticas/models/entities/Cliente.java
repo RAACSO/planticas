@@ -21,7 +21,7 @@ import jakarta.validation.constraints.NotNull;
 
 
 @Entity
-@Table(name="clientes")
+@Table(name="cliente")
 public class Cliente implements Serializable{
 
     @Id
