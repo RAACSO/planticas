@@ -1,4 +1,4 @@
-FROM amazoncorretto:17-alpine-jdk
+FROM amazoncorretto:8-alpine-jdk
 
 COPY target/shoesformen_spring-0.0.1-SNAPSHOT.jar app.jar
 
