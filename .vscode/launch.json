@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Planticas",
+            "request": "launch",
+            "mainClass": "com.edu.cibertec.Planticas",
+            "projectName": "shoesformen_spring"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-Planticas<planticas>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
